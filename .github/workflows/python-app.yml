@@ -35,7 +35,7 @@ jobs:
       name: Build & push Docker image
       with:
         image: yadhucloud/gitact
-        tags: v1
+        tags: v2
         registry: docker.io
-        username: "yadhucloud"
-        password: "G.ya.8590@ey"
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
