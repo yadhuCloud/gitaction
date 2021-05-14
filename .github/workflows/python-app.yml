@@ -33,7 +33,7 @@ jobs:
     - name: Login to DockerHub
       uses: docker/login-action@v1 
       with:
-        username: "yadhu.cloud@gmail.com"
+        username: "yadhucloud"
         password: "G.ya.8590@ey"
 
     - name: Build and push
